@@ -8,17 +8,17 @@ function Statistics({ good, bad, neutral, total, positivePercentage }) {
       <ul>
         <li>
           <p className={styles.feedbackOption}>
-            Total: <span>{good}</span>{' '}
+            Good: <span>{good}</span>{' '}
           </p>
         </li>
         <li>
           <p className={styles.feedbackOption}>
-            Total: <span>{bad}</span>{' '}
+            Bad: <span>{bad}</span>{' '}
           </p>
         </li>
         <li>
           <p className={styles.feedbackOption}>
-            Total: <span>{neutral}</span>{' '}
+            Neutral: <span>{neutral}</span>{' '}
           </p>
         </li>
         <li>
